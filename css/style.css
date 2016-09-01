@@ -1,0 +1,155 @@
+.dropbtn {
+    background-color: #2196F3;
+    color: white;
+    font-size: 16px;
+    border: none; 
+    cursor: pointer;
+	width: 100%;
+	overflow:hidden;
+}
+
+.dropbtn a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+	overflow:hidden;
+	white-space: nowrap;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	width: 23%;
+}
+.dropdown-content {
+    display: none;
+	width: 100%;
+    color: white;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	overflow:hidden;
+	white-space: nowrap;
+}
+.dropdown-content a:hover {background-color: #90CAF9;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #1976D2;
+}
+
+.heading {
+	text-align: center;
+	background-color: #2196F3;
+   	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+}
+
+.body {
+	width: 80%;
+	margin: auto;
+}
+
+.container{
+	width: 100%;
+	float: left;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 24px;
+	padding-bottom: 24px;
+	background: #fff;
+    	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.container>img{
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	margin-top: 0px;
+	padding: 10px;
+	background: #2196f3;
+}
+
+.content{
+	margin: auto;
+	width: 95%;
+}
+
+.bioleft{
+	float: left;
+	border: 1px solid #000;
+	width: 30%;
+}
+
+.bioleft img{
+	width: 100%;
+}
+
+.bioright{
+	float: right;
+	border: 1px solid #000;
+	width: 67%;
+}
+
+#container {
+	width: 1024px;
+	height: 710px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+
+#slider {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	padding: 3px;
+}
+
+#slider img {
+	width: 1015px;
+	height: 628px;
+	overflow: hidden;
+	border: #555 solid 3px;
+	border-radius: 30px;
+}
+
+.slide {
+	position: absolute;
+}
+
+#prev {
+	float: left;
+	position: relative;
+	z-index: 10px;
+	cursor: pointer;
+	
+}
+
+#next {
+	float: right;
+	position: relative;
+	z-index: 10;
+	cursor: pointer;
+}
+
+body{
+	background: url("../images/ymor12.jpg") no-repeat center;
+	background-size: 100% 100%;
+}
